@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+   color: #00051a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background {
+     min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #00051a;
+}
+
+.background-a {
+    padding: 20px;
+    background: #fff;
+    width: 400px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.logo h2 {
+    padding-top: 15px;
+    color: #00051a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo p {
+    padding-top: 10px;
+    color: #00051a;
+    font-size: 17px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.login-area {
+    padding-top: 20px;
+}
+
+.login label {
+    color: #00051a;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.login input {
+    margin-top: 3px;
+    padding: 8px;
+    font-size: 17px;
+    outline: none;
+}
+
+.checkpass {
+    margin-top: 10px;
+    text-align: left;
+    color: #00051a;
+}
+
+.checkpass label,
+.checkpass input {
+    cursor: pointer;
+}
+
+.checkpass label {
+    font-size: 15px;
+}
+
+.login-btn {
+    margin-top: 10px;
+}
+
+.login-btn button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: brown;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn button:hover {
+    background: #5775ec;
+    color: #00051a;
+}
+
+.forgotpass {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.forgotpass a {
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.forgotpass a:hover {
+    color: brown;
+}

@@ -1,0 +1,532 @@
+@media(max-width:1024px) {
+    .home1 {
+        padding: 100px 0 0 0;
+    }
+
+    .home-left {
+        padding: 70px 40px;
+    }
+
+   
+    .services {
+        padding: 10px 20px;
+    }
+
+    .service-main-sections {
+        padding: 10px;
+        grid-gap: 10px;
+    }
+
+    .reason-header {
+        padding: 90px 50% 20px 40px;
+    }
+
+    .about-experience {
+        margin: 0 40px 0 -100px;
+        grid-gap: 10px;
+    }
+
+    .special {
+        padding: 5px 10px;
+    }
+
+    .special-content h3 {
+        text-align: center;
+    }
+
+    .contact {
+        padding: 70px 20px;
+
+    }
+
+    .footer1 {
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .hg {
+        padding: 5px;
+    }
+
+    .about {
+        padding: 90px 15px 100px;
+    }
+
+    .about-right {
+        padding: 35px 90px 0 0;
+    }
+
+    .about-more {
+        padding: 20px 50px;
+    }
+
+    .booking {
+        padding: 120px 20px 20px;
+    }
+
+    .top-righ {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .top-righ {
+        display: none;
+    }
+
+    .top-header {
+        padding: 10px 20px;
+    }
+
+    .bottom-header {
+        padding: 30px 5px;
+    }
+
+    .header-content a {
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .why {
+        padding: 0 10px;
+    }
+
+    .whyus {
+        display: flex;
+        gap: 10px;
+    }
+
+    .reason-right {
+        height: 400px;
+        width: 250px;
+    }
+
+    .service-main-sections {
+        grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+    }
+
+    .about-experience {
+        margin: 0 10px 0 -180px;
+    }
+
+    .special-content {
+        padding: 30px 10px;
+    }
+
+    .contact-content {
+        padding-right: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+        grid-gap: 40px;
+    }
+
+    .contact-info {
+        background: var(--green--);
+        padding: 80PX 20px;
+    }
+
+    .contact-input {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        padding: 10px 20px;
+    }
+
+    .footer-content3 {
+        padding: 10px;
+    }
+
+    .input-field2 {
+        width: 300px;
+    }
+
+    .about {
+        padding: 90px 5px 100px;
+    }
+
+    .about-right {
+        padding: 35px 10px 0 0;
+    }
+
+    .about-more {
+        padding: 20px 10px;
+    }
+
+    .image1 img {
+        width: 200px;
+        height: 350px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 100px;
+        left: 130px;
+    }
+
+    .blog-text {
+        left: 5%;
+        width: 700px;
+    }
+
+    .booking {
+        padding: 120px 20px 20px;
+    }
+
+    .hg {
+        padding: 5px;
+        grid-gap: 10px;
+    }
+
+    .booking-header {
+        padding: 10px 15px;
+    }
+}
+
+@media(max-width:425px) {
+    .top-righ {
+        position: absolute;
+        display: block;
+
+    }
+
+    .top-righ img {
+        position: relative;
+        left: 7%;
+        width: 350px;
+        height: 200px;
+        border-radius: 40% 0;
+    }
+
+    .home-left h3 {
+        padding-top: 130px;
+        font-size: 35px;
+    }
+
+    .home-left {
+        padding: 100px 20px 20px;
+        text-align: center;
+    }
+
+    .top-header {
+        padding: 10px 2px;
+        background: rgb(48, 187, 164);
+        border-bottom: 1px solid green;
+    }
+
+    .footer-icons img {
+        width: 26px;
+        height: 26px;
+        box-shadow: none;
+    }
+
+    .bottom-header {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 150px;
+        flex-direction: column;
+        background: #023f3f46;
+        backdrop-filter: blur(8px);
+        padding: 0 20px;
+        border-radius: 0 0 20px 0;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    .header-btn {
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header-content a {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 10px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .home-right {
+        display: none;
+    }
+
+    .hbutton {
+        display: block;
+    }
+
+    .hbutton img {
+        padding: 6px 30px;
+        width: 84px;
+        height: 30px;
+    }
+
+    .reason-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .about-experience {
+        margin: 0 10px 0 0;
+    }
+
+    .service-main-sections {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .service-header p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .jh,
+    .footer-content3 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-button button {
+        margin-top: 15px;
+    }
+
+    .reason-header {
+        padding: 10px 30px;
+    }
+
+    .reason-header p {
+        font-size: 18px;
+    }
+
+    .about-experience {
+        padding: 5px 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .reason-right {
+        margin-top: -30px;
+        height: 400px;
+        width: 400px;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about {
+        padding: 40px 1px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-right {
+        padding: 50px 20px 0;
+    }
+
+    .about-moto,
+    .about-head {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-moto img,
+    .about-head img {
+        width: 380px;
+        height: 200px;
+    }
+
+    .blog-statement {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hg {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .booking {
+        padding: 70px 10px 20px;
+    }
+
+    .booking h3 {
+        font-size: 28px;
+    }
+
+    .callback h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+}
+
+@media(max-width:375px) {
+    .top-righ img {
+        width: 330px;
+    }
+
+    .hbutton button {
+        padding: 5px 20px;
+    }
+
+    .booking h3 {
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .callback h3 {
+        font-size: 16px;
+    }
+
+    .reason-right {
+        height: 350px;
+        width: 350px;
+    }
+
+    .services {
+        padding: 10px;
+    }
+
+    .contact {
+        padding: 10px;
+        padding-right: 0px;
+    }
+
+    .about-moto img,
+    .about-head img {
+        width: 330px;
+        height: 200px;
+    }
+
+    .about-left {
+        padding: 30px 20px;
+    }
+
+    .home-left h3 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    .top-righ img {
+        width: 280px;
+    }
+
+    .home-left h3 {
+        font-size: 26px;
+    }
+
+    .home-left {
+        padding: 100px 10px 20px;
+    }
+
+    .bottom-header {
+        right: 100px;
+    }
+
+    .hbutton button {
+        padding: 5px 10px;
+    }
+
+    .booking h3 {
+        font-size: 20px;
+    }
+
+    .callback h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .reason-right {
+        height: 350px;
+        width: 300px;
+    }
+
+    .about-experience {
+        padding: 5px 0;
+        grid-gap: 5px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer1 {
+        padding: 10px;
+    }
+
+    .input-field2 {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .glass h3 {
+        font-size: 26px;
+    }
+
+    .about {
+        padding: 40px 1px;
+    }
+
+    .about-left {
+        padding: 30px 10px;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 100px;
+        left: 95px;
+    }
+
+    .about-moto,
+    .about-head {
+        padding: 20px 10px;
+    }
+
+    .about-moto img,
+    .about-head img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .about-right {
+        padding: 50px 10px 0;
+    }
+}

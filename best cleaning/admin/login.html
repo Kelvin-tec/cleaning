@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/LOGO1.jpg">
+    <title>Cleaning Services</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="background">
+        <div class="background-a" id="log" >
+            <div class="logo">
+                <img src="../images/LOGO1.jpg">
+                <h2>Sign In</h2>
+                <p>Enter your correct credentials to gain access of the admin panel</p>
+                <hr>
+            </div>
+            <div class="login-area">
+                <form action="">
+                    <div class="login">
+                        <label for="Email-address">Email Address</label>
+                        <input type="email" name="Email" required>
+                    </div>
+                    <div class="login">
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="passw" required>
+                    </div>
+                    <div class="checkpass">
+                        <input type="checkbox" name="show-password" id="showPassword">
+                        <label for="showpass" >Show Password</label>
+                    </div>
+                    <div class="login-btn">
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="forgotpass">
+                        <a href="#" id="flog">Forgotten Your Password ?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="background-a" id="Ver" style="display: none;">
+            <div class="login-area">
+                <div class="logo">
+                    <img src="../images/LOGO1.jpg">
+                    <hr style="margin-top: 10px;">
+                </div>
+                <form action="">
+                    <div class="login">
+                        <label for="Email-address">Email Address</label>
+                        <input type="email" name="Email" required placeholder="enter your valid email">
+                    </div>
+                    <div class="login">
+                        <label for="Registration-number">Registration Number</label>
+                        <input type="text" name="Registration-number" required
+                            placeholder="enter your registration number">
+                    </div>
+                    <div class="login-btn">
+                        <button type="submit">Sent Now</button>
+                    </div>
+                    <div class="forgotpass">
+                        <a href="#" id="fver">Remember Your Password ?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="background-a" id="Cheng" style="display: none;">
+            <div class="login-area">
+                <div class="logo">
+                    <img src="../images/LOGO1.jpg">
+                    <hr style="margin-top: 10px;">
+                </div>
+                <form action="">
+                    <div class="login">
+                        <label for="Verification">Verification Number</label>
+                        <input type="number" name="vernumbar" required>
+                    </div>
+                    <div class="login">
+                        <label for="Password">New Password</label>
+                        <input type="password" name="password" id="passw" required>
+                    </div>
+                    <div class="login">
+                        <label for="Password">Confirm Password</label>
+                        <input type="password" name="password" id="passw" required>
+                    </div>
+                     <div class="checkpass">
+                        <input type="checkbox" name="show-password" id="showPassword">
+                        <label for="showpass" >Show Password</label>
+                    </div>
+                    <div class="login-btn">
+                        <button type="submit">Change your password</button>
+                    </div>
+                    <div class="forgotpass">
+                        <a href="#" id="fcheng">Remember Your Password ?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        /*password show/hide*/
+        const passw = document.getElementById('passw');
+        const Checkb = document.getElementById('showPassword');
+
+        Checkb.addEventListener('change', function () {
+            if (this.checked) {
+                passw.type = 'text';
+            } else {
+                passw.type = 'password';
+            }
+        });
+        /*end of show/hide password js*/
+
+        /*show the recovery form*/
+        const logi = document.getElementById('log');
+        const Veri = document.getElementById('Ver');
+        const flog = document.getElementById('flog');
+        const fver = document.getElementById('fver');
+        const fcheng = document.getElementById('fcheng');
+        const Cheng = document.getElementById('Cheng');
+        flog.addEventListener('click', function () {
+            Veri.style.display = "block";
+            logi.style.display = "none";
+        })
+        fver.addEventListener('click', function () {
+            Veri.style.display = "none";
+            logi.style.display = "block";
+        })
+        fcheng.addEventListener('click', function () {
+            Cheng.style.display = "none";
+            logi.style.display = "block";
+        })
+        /*end of recovery form show js*/
+    </script>
+</body>
+
+</html>
