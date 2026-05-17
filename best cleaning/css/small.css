@@ -1,0 +1,651 @@
+@media(max-width:1024px) {
+    .home1 {
+        padding: 100px 0 0 0;
+    }
+
+    .home-left {
+        padding: 70px 40px;
+    }
+
+    .services {
+        padding: 10px 20px;
+    }
+
+    .service-main-sections {
+        padding: 10px;
+        grid-gap: 10px;
+    }
+
+    .reason-header {
+        padding: 90px 50% 20px 40px;
+    }
+
+    .about-experience {
+        margin: 0 40px 0 -100px;
+        grid-gap: 10px;
+    }
+
+    .special {
+        padding: 5px 10px;
+    }
+
+    .special-content h3 {
+        text-align: center;
+    }
+
+    .contact {
+        padding: 70px 20px;
+
+    }
+
+    .footer1 {
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .hg {
+        padding: 5px;
+    }
+
+    .about {
+        padding: 90px 15px 100px;
+    }
+
+    .about-right {
+        padding: 35px 90px 0 0;
+    }
+
+    .about-more {
+        padding: 20px 50px;
+    }
+
+    .booking {
+        padding: 120px 20px 20px;
+    }
+
+    .top-righ {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .bottom-header {
+        padding: 10px 30px;
+    }
+
+    .header-content a {
+        padding-left: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .overlay {
+        height: 90vh;
+        top: 5px;
+    }
+
+    .slidder {
+        overflow: hidden;
+        height: 90vh;
+        top: 5px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+        margin: 50px auto 0;
+    }
+
+    .bt .btt {
+        display: block;
+    }
+
+    .btc {
+        display: none;
+    }
+
+    .why {
+        padding: 0 10px;
+    }
+
+    .whyus {
+        display: flex;
+        gap: 10px;
+    }
+
+    .reason-right {
+        height: 400px;
+        width: 250px;
+    }
+
+    .service-main-sections {
+        grid-template-columns: repeat(auto-fit, minmax(159px, 1fr));
+    }
+
+    .about-experience {
+        margin: 0 10px 0 -180px;
+    }
+
+    .special-content {
+        padding: 30px 10px;
+    }
+
+    .contact-area {
+        grid-template-columns: 55% 45%;
+        grid-gap: 10px;
+    }
+
+    .contact-info {
+        background: var(--green--);
+        padding: 80PX 20px;
+    }
+
+    .contact-input {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+        padding: 10px 20px;
+    }
+
+    .footer-content3 {
+        padding: 10px;
+    }
+
+    .input-field2 {
+        width: 300px;
+    }
+
+    .about {
+        padding: 90px 5px 100px;
+    }
+
+    .about-right {
+        padding: 35px 10px 0 0;
+    }
+
+    .about-more {
+        padding: 20px 10px;
+    }
+
+    .image1 img {
+        width: 200px;
+        height: 350px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 100px;
+        left: 130px;
+    }
+
+    .blog-text {
+        left: 5%;
+        width: 700px;
+    }
+
+    .booking {
+        padding: 120px 20px 20px;
+    }
+
+    .hg {
+        padding: 5px;
+        grid-gap: 10px;
+    }
+
+    .booking-header {
+        padding: 10px 15px;
+    }
+
+    .quiz {
+        padding: 20px;
+    }
+
+    .quiz-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office-cleaning-content {
+        padding: 0 10px;
+    }
+
+    .office-cleaning-left img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .center {
+        padding: 10px;
+    }
+}
+
+@media(max-width:425px) {
+    .header-content {
+        display: none;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        top: 70px;
+        border-top: 1px solid gray;
+        transition: all 0.3s ease;
+    }
+
+    .header-content ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content ul li {
+        padding: 13px;
+    }
+
+    .header-content ul a {
+        font-weight: 800;
+    }
+
+    .header-content ul li ul {
+        position: relative;
+        display: block;
+        border-radius: 0px;
+
+        li {
+            border-radius: 0;
+            padding: 0px;
+            margin: 15px 0;
+        }
+
+        a {
+            color: black;
+            padding: 0px;
+        }
+    }
+
+    #submenu {
+        display: none;
+    }
+
+    .tglmenu {
+        display: block;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content p {
+        width: 84%;
+        line-height: 30px;
+    }
+
+    .footer-icons img {
+        width: 26px;
+        height: 26px;
+        box-shadow: none;
+    }
+
+
+    .slidder,
+    .overlay {
+        height: 86vh;
+        top: 0px;
+    }
+
+    .banner {
+        top: -20px;
+        height: 86vh;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .description-left {
+        height: 300px;
+    }
+
+    .description-left img {
+        border-radius: 5px;
+        rotate: 0deg;
+    }
+
+    .reason-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .about-experience {
+        margin: 0 10px 0 0;
+    }
+
+    .service-main-sections {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .service-header p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .jh,
+    .footer-content3 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-button button {
+        margin-top: 15px;
+    }
+
+    .reason-header {
+        padding: 10px 30px;
+    }
+
+    .reason-header p {
+        font-size: 18px;
+    }
+
+    .about-experience {
+        padding: 5px 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .reason-right {
+        margin-top: -30px;
+        height: 400px;
+        width: 400px;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about {
+        padding: 40px 1px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-right {
+        padding: 50px 20px 0;
+    }
+
+    .about-moto,
+    .about-head {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-moto img,
+    .about-head img {
+        width: 380px;
+        height: 200px;
+    }
+
+    .blog-statement {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hg {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .booking {
+        padding: 70px 10px 20px;
+    }
+
+    .booking h3 {
+        font-size: 28px;
+    }
+
+    .callback h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .ht,
+    .office-cleaning-bottom,
+    .office-cleaning-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .office-cleaning-left {
+        padding: 10px;
+    }
+
+    .office-cleaning-left img {
+        width: 300px;
+        height: 200px;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+
+    .office-cleaning-right h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .center {
+        padding: 10px;
+    }
+
+    .quiz {
+        padding: 10px 1px;
+    }
+
+    .quiz-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quiz-left,
+    .quiz-right {
+        padding: 10px;
+    }
+
+    .contact-area {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contact-area-right {
+        padding: 20px 10px;
+        border-radius: 5px;
+    }
+
+    .contact-area-left {
+        height: 330px;
+    }
+
+    .c-body {
+        padding: 90px 10px 20px;
+    }
+
+    .c-body h1 {
+        font-size: 34px;
+    }
+
+    .office-cleaning-left img {
+        width: 380px;
+    }
+
+}
+
+@media(max-width:375px) {
+    .top-righ img {
+        width: 330px;
+    }
+
+    .hbutton button {
+        padding: 5px 20px;
+    }
+
+    .booking h3 {
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .callback h3 {
+        font-size: 16px;
+    }
+
+    .reason-right {
+        height: 350px;
+        width: 350px;
+    }
+
+    .services {
+        padding: 10px;
+    }
+
+    .contact {
+        padding: 10px;
+        padding-right: 0px;
+    }
+
+    .about-moto img,
+    .about-head img {
+        width: 330px;
+        height: 200px;
+    }
+
+    .about-left {
+        padding: 30px 20px;
+    }
+
+    .home-left h3 {
+        font-size: 30px;
+    }
+
+    .office-cleaning-left img {
+        width: 330px;
+    }
+}
+
+@media(max-width:320px) {
+    .description {
+        padding: 0 5px;
+    }
+    .description-left {
+        height: 220px;
+    }
+    .booking h3 {
+        font-size: 20px;
+    }
+
+    .callback h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .reason-right {
+        height: 350px;
+        width: 300px;
+    }
+
+    .about-experience {
+        padding: 5px 0;
+        grid-gap: 5px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer1 {
+        padding: 10px;
+    }
+
+    .input-field2 {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .glass h3 {
+        font-size: 26px;
+    }
+
+    .about {
+        padding: 40px 1px;
+    }
+
+    .about-left {
+        padding: 30px 10px;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 100px;
+        left: 95px;
+    }
+
+    .about-moto,
+    .about-head {
+        padding: 20px 10px;
+    }
+
+    .office-cleaning-left img,
+    .about-moto img,
+    .about-head img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .about-right {
+        padding: 50px 10px 0;
+    }
+
+    .quiz-left img,
+    .quiz-left-doubt {
+        width: 300px;
+    }
+}
